@@ -1,0 +1,26 @@
+@media (min-width: 45em) {
+    #menu {
+		display: none; /* hide hamburger button */
+	}
+
+    .top-container {
+        display: grid;
+        grid-template-columns: 1fr auto;
+        max-width: 1300px;
+        margin: 0 auto;
+    }
+
+    .navigation {
+        flex-direction: row;
+        align-items: center;
+    }
+    
+    .navigation a {
+        flex: 1 1 100%;
+        display: block;
+        color: #eee;
+        padding: 0.75rem;
+        text-decoration: none;
+        text-align: center;
+    }
+}

@@ -1,2 +1,89 @@
-test
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is the home page from Matías Argañaraz for the course WDD 231 - Web Frontend Development I">
+    <meta name="author" content="Matías Argañaraz">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <title>WDD 231 - Matías Argañaraz</title>
+    <script src="scripts/courses.js" defer></script>
+    <script src="scripts/getdates.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="header">
+            <img src="images/profile.webp" alt="Profile Picture" width="200">
+            <h1 class="title">Matías Argañaraz</h1>
+        </div>
+        <button id="menu" aria-label="Menu button"></button>
+        <nav class="navigation">
+            <a href="#" title="Home" class="active">Home</a>
+            <a href="chamber.html" title="Chamber">Chamber</a>
+            <a href="https://argmat-byui.github.io/wdd231" title="Github Profile">Github Profile</a>
+            <a href="https://www.linkedin.com/in/matias-arganaraz/" title="LinkedIn">LinkedIn</a>
+        </nav>
+    </header>
+    <main>
+        <section class="top-container">
+            <div class="card">
+                <div class="header">
+                    <h2>Course Work</h2>
+                </div>
+                <div class="content">
+                    <ul class="black-text">
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="card right-sidebar">
+                <div class="header">
+                    <h2>Buenos Aires, Argentina</h2>
+                </div>
+                <div class="content">
+                    <figure class="center">
+                        <img src="images/argentina.webp" alt="Buenos Aires Picture" width="200">
+                        <figcaption> Obelisco </figcaption>
+                      </figure>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="card">
+                <div class="header">
+                    <h2>Web and Computer Programming Certificate</h2>
+                </div>
+                <div class="content">
+                    <div class="sub-header">
+                        <button class="course-filter black-button active" data-filter-key="all">ALL</button>
+                        <button class="course-filter black-button" data-filter-key="cse">CSE</button>
+                        <button class="course-filter black-button" data-filter-key="wdd">WDD</button>
+                    </div>
+                    <div class="course-container">
+                        <ul id="courses">
+                            <li>CSE 110</li>
+                            <li>WDD 130</li>
+                            <li class="completed">CSE 111</li>
+                            <li>CSE 210</li>
+                            <li>WDD 131</li>
+                            <li>WDD 231</li>
+                        </ul>
+                    </div>
+                    <p class="black-text">Credits: <span id="credits"></span></p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>©<span id="currentyear"></span> | Matías Argañaraz | Argentina</p>
+        <p>Last Update: <span id="last-modified"></span></p>
+    </footer>
+</body>
+</html>

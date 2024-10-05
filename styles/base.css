@@ -1,0 +1,215 @@
+:root {
+    --primary-color: #346edb;
+    --secondary-color: #394f77;
+    --accent1-color: #d9ddc9;
+    --accent2-color: #F39C12;
+
+    --heading-font: 'Montserrat', sans-serif;
+    --paragraph-font: 'Montserrat', sans-serif;
+
+    --nav-background-color: #2C3E50;
+    --nav-link-color: #3498DB;
+    --nav-hover-link-color: #E74C3C;
+    --nav-hover-background-color: #F39C12;
+}
+
+body {
+    display: grid;
+    grid-template-rows: 1fr 10fr 4fr 1fr;
+    height: 100vh;
+    font-weight: 400;
+    margin: 0; /* Ensure no default margin */
+    font-family: var(--paragraph-font);
+    color: var(--accent1-color);
+    background-color: whitesmoke;
+    max-width: 1300px;
+    margin:0 auto;
+}
+
+header div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    gap: 20px
+}
+
+header div img {
+    height: 100px;
+    width: auto;
+}
+
+main .card {
+    display: grid;
+    grid-template-rows: auto 1fr;
+    margin: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 0 0 5px 5px;
+}
+
+.card div.header {
+    padding: 15px;
+    border-radius: 5px 5px 0 0;
+}
+
+.card div.content {
+    /* position: relative; */
+    border: solid 1px grey;
+    border-radius: 0 0 5px 5px;
+    align-items: center;
+}
+
+.card h2 {
+    text-align: center;
+    border-radius: 5px 5px 0 0;
+}
+
+figure {
+    font-size: .75rem;
+    font-style: italic;
+}
+
+figure.center {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+figcaption {
+    margin: 10px;
+    text-align: center;
+    color: black;
+}
+
+div.header, footer {
+    background: var(--secondary-color);
+}
+
+.sub-header {
+    display: flex;
+    border-bottom: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 5px;
+}
+
+footer {
+    text-align: center;
+}
+
+/* small view navigation */
+#menu {
+	font-size: 1.5rem;
+	border: 0;
+	background: none;
+	color: #000;
+	position: absolute;
+	top: 1rem;
+	right: 1rem;
+}
+
+#menu::before {
+	content: "☰";
+}
+
+#menu.open::before {
+	content: "x";
+}
+
+.navigation {
+	display: flex;
+    background-color: #333;
+	flex-direction: column;
+	list-style: none;
+	color: #fff;
+}
+
+.navigation a {
+	display: none;
+	padding: 1rem;
+	text-align: center;
+	text-decoration: none;
+	color: #fff;
+}
+
+.navigation a:hover {
+    font-weight: 700;
+    text-decoration: underline;
+    text-decoration-color: var(--accent1-color);
+}
+
+.navigation a.active {
+    font-weight: 800;
+    text-decoration: underline;
+}
+
+/* when the button is clicked - the open class is toggled (added/removed) */
+.open a {
+	display: block;
+}
+
+p {
+    padding: 10px;
+}
+
+.black-text {
+    color: black;
+}
+
+.black-button {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 5px 30px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.black-button:hover {
+    background-color: #333; /* Darker shade on hover */
+    transform: translateY(-2px); /* Slight lift effect */
+}
+
+.black-button:active {
+    transform: translateY(0); /* Reset on click */
+}
+
+.black-button.active {
+    text-decoration: underline;
+    text-decoration-color: var(--accent1-color);
+}
+
+.course-container ul {
+    list-style-type: none; /* Remove default list styling */
+    padding: 0; /* Remove padding */
+    display: grid;
+    grid: auto / repeat(3, auto);
+}
+
+.course-item {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.course-item.completed {
+    background-color: var(--secondary-color);
+}
+
+.course-item.pending {
+    background-color: brown;
+}
+
+.course-container ul li 
+
+.course-container ul li:hover {
+    background-color: #555; /* Darker background on hover */
+    transform: translateY(-2px); /* Slight lift effect */
+}

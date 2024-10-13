@@ -1,0 +1,51 @@
+[
+    {
+        "name": "Guerrín",
+        "imageUrl": "images/members-logos/guerrin.webp",
+        "address": "Av. Corrientes 1368",
+        "phoneNumber": "4371-8141",
+        "websiteUrl": "https://www.instagram.com/pizzeriaguerrin/"
+    },
+    {
+        "name": "Yenny - El Ateneo",
+        "imageUrl": "images/members-logos/el-ateneo.webp",
+        "address": "Florida 340",
+        "phoneNumber": "5420-2938",
+        "websiteUrl": "https://www.yenny-elateneo.com/"
+    },
+    {
+        "name": "Tango Porteño",
+        "imageUrl": "images/members-logos/tango-porteno.webp",
+        "address": "Cerrito 570",
+        "phoneNumber": "4124-9400",
+        "websiteUrl": "https://tangoporteno.com.ar/"
+    },
+    {
+        "name": "Los Inmortales",
+        "imageUrl": "images/members-logos/los-inmortales.webp",
+        "address": "Lavalle 746",
+        "phoneNumber": "4322-5493",
+        "websiteUrl": "https://www.losinmortales.com/"
+    },
+    {
+        "name": "Gran Rex",
+        "imageUrl": "images/members-logos/gran-rex.webp",
+        "address": "Av. Corrientes 857",
+        "phoneNumber": "4325-7300",
+        "websiteUrl": "https://teatro-granrex.com.ar/"
+    },
+    {
+        "name": "Siga la Vaca",
+        "imageUrl": "images/members-logos/siga-la-vaca.webp",
+        "address": "Av. Alicia Moreau de Justo 1714",
+        "phoneNumber": "4315-6801",
+        "websiteUrl": "https://sigalavaca.com/"
+    },
+    {
+        "name": "Hilton",
+        "imageUrl": "images/members-logos/hilton.webp",
+        "address": "Blvd. Macacha Guemes 351",
+        "phoneNumber": "4891-0000",
+        "websiteUrl": "https://www.hilton.com/en/hotels/buehihh-hilton-buenos-aires/"
+    }
+]

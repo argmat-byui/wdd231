@@ -1,4 +1,5 @@
 import { getWeather, getForecast } from "./weather.js";
+import { getDirectory } from "./get-directory.js";
 
 function capitalizeWord(str) {
     return str.charAt(0).toUpperCase() + str.substring(1);
@@ -64,5 +65,42 @@ function createForecastContainer(forecast) {
     `;
 }
 
+function getMembership (item) {
+    return ['Bronze', 'Silver', 'Gold'][item.level-1];
+}
+
+function createCard (item) {
+	return `
+			<div class="item-card">
+				<img class="hover" src="${item.imageUrl}" loading="lazy" height="167" width="auto" alt="Córdoba temple">
+                    <h2>${item.name}</h2>
+                    <span class="card-value">${item.address}</span>
+					<span class="card-value">${item.phoneNumber}</span>
+                    <span class="card-value"><a href="${item.websiteUrl}">Website</a></span>
+                    <span class="card-value">Membership: ${getMembership(item)}</span>
+            </div>
+		   `
+}
+
+function getRandom(array, count=1) {
+    const shuffled = [...array].sort(() => 0.5 - Math.random());
+    return shuffled.slice(0, count);
+}
+
+async function initDirectoryPreview() {
+    const directory = await getDirectory();
+    showDirectoryPreview(getRandom(directory.filter(e => e.level >= 2), 3));
+}
+
+const cardsContainer = document.querySelector('.directory-preview');
+
+const showDirectoryPreview = (directory, filterFn = () => true) => {
+	const cards = directory.filter(filterFn).map(createCard);
+    console.log('cards', cards);
+	cardsContainer.innerHTML = cards.join('');
+}
+
 showWeather();
 showForecast();
+
+initDirectoryPreview();

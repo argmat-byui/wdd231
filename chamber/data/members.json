@@ -4,48 +4,55 @@
         "imageUrl": "images/members-logos/guerrin.webp",
         "address": "Av. Corrientes 1368",
         "phoneNumber": "4371-8141",
-        "websiteUrl": "https://www.instagram.com/pizzeriaguerrin/"
+        "websiteUrl": "https://www.instagram.com/pizzeriaguerrin/",
+        "level": 2
     },
     {
         "name": "Yenny - El Ateneo",
         "imageUrl": "images/members-logos/el-ateneo.webp",
         "address": "Florida 340",
         "phoneNumber": "5420-2938",
-        "websiteUrl": "https://www.yenny-elateneo.com/"
+        "websiteUrl": "https://www.yenny-elateneo.com/",
+        "level": 3
     },
     {
         "name": "Tango Porteño",
         "imageUrl": "images/members-logos/tango-porteno.webp",
         "address": "Cerrito 570",
         "phoneNumber": "4124-9400",
-        "websiteUrl": "https://tangoporteno.com.ar/"
+        "websiteUrl": "https://tangoporteno.com.ar/",
+        "level": 1
     },
     {
         "name": "Los Inmortales",
         "imageUrl": "images/members-logos/los-inmortales.webp",
         "address": "Lavalle 746",
         "phoneNumber": "4322-5493",
-        "websiteUrl": "https://www.losinmortales.com/"
+        "websiteUrl": "https://www.losinmortales.com/",
+        "level": 1
     },
     {
         "name": "Gran Rex",
         "imageUrl": "images/members-logos/gran-rex.webp",
         "address": "Av. Corrientes 857",
         "phoneNumber": "4325-7300",
-        "websiteUrl": "https://teatro-granrex.com.ar/"
+        "websiteUrl": "https://teatro-granrex.com.ar/",
+        "level": 3
     },
     {
         "name": "Siga la Vaca",
         "imageUrl": "images/members-logos/siga-la-vaca.webp",
         "address": "Av. Alicia Moreau de Justo 1714",
         "phoneNumber": "4315-6801",
-        "websiteUrl": "https://sigalavaca.com/"
+        "websiteUrl": "https://sigalavaca.com/",
+        "level": 1
     },
     {
         "name": "Hilton",
         "imageUrl": "images/members-logos/hilton.webp",
         "address": "Blvd. Macacha Guemes 351",
         "phoneNumber": "4891-0000",
-        "websiteUrl": "https://www.hilton.com/en/hotels/buehihh-hilton-buenos-aires/"
+        "websiteUrl": "https://www.hilton.com/en/hotels/buehihh-hilton-buenos-aires/",
+        "level": 2
     }
 ]

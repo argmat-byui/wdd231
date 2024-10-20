@@ -1,16 +1,6 @@
-console.log('loaded directory.js');
+import { getDirectory } from "./get-directory.js";
 
 const cardsContainer = document.querySelector('#cards-container');
-
-async function getDirectory() {
-    try {
-        const response = await fetch('data/members.json');
-        return await response.json();
-    }
-    catch (err) {
-        console.log(err);
-    }
-}
 
 const show = (directory, filterFn = () => true) => {
 	const cards = directory.filter(filterFn).map(createCard);
@@ -38,7 +28,6 @@ async function init() {
 init();
 
 const viewSelectors = document.querySelectorAll('.view-selector');
-console.log({ viewSelectors });
 
 viewSelectors.forEach(e => e.addEventListener('click', function() {
     viewSelectors.forEach(e => {

@@ -49,6 +49,7 @@ main .card {
 .card div.header {
     padding: 15px;
     border-radius: 5px 5px 0 0;
+    color: var(--accent1-color);
 }
 
 .card div.content {

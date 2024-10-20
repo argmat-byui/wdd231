@@ -14,11 +14,13 @@
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/large.css">
     <link rel="stylesheet" href="styles/directory.css">
+    <link rel="stylesheet" href="styles/directory-large.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <title>WDD 231 - Matías Argañaraz - Buenos Aires Chamber of Commerce</title>
-    <script src="scripts/directory.js" defer></script>
+    <script src="scripts/get-directory.js" type="module"></script>
+    <script src="scripts/directory.js" type="module"></script>
     <script src="scripts/getdates.js" defer></script>
 </head>
 <body>
@@ -29,7 +31,7 @@
         </div>
         <button id="menu" aria-label="Menu button"></button>
         <nav class="navigation">
-            <a href="#" title="Home">Home</a>
+            <a href="/chamber" title="Home">Home</a>
             <a href="#" title="Chamber" class="active">Directory</a>
             <a href="#" title="Github Profile">Join</a>
             <a href="#" title="LinkedIn">Discover</a>

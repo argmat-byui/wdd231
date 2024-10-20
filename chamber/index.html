@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Buenos Aires Chamber of Commerce site - WDD 231 - Web Frontend Development I">
+    <meta name="author" content="Matías Argañaraz">
+    <meta name="og:description" content="Buenos Aires Chamber of Commerce site - WDD 231 - Web Frontend Development I">
+    <meta property="og:title" content="WDD 231 - Matías Argañaraz - Buenos Aires Chamber of Commerce">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://argmat-byui.github.io/wdd231/chamber/images/logo.webp">
+    <meta property="og:url" content="https://argmat-byui.github.io/wdd231/chamber/">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <link rel="stylesheet" href="styles/home.css">
+    <link rel="stylesheet" href="styles/home-large.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>WDD 231 - Matías Argañaraz - Buenos Aires Chamber of Commerce</title>
+    <script src="scripts/get-directory.js" type="module"></script>
+    <script src="scripts/weather.js" type="module"></script>
+    <script src="scripts/home.js" type="module"></script>
+    <script src="scripts/getdates.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="header">
+            <img src="images/logo.webp" alt="Buenos Aires Chamber of Commerce" width="200">
+            <h1 class="title">Buenos Aires Chamber of Commerce</h1>
+        </div>
+        <button id="menu" aria-label="Menu button"></button>
+        <nav class="navigation">
+            <a href="#" title="Home" class="active">Home</a>
+            <a href="directory.html" title="Chamber">Directory</a>
+            <a href="#" title="Github Profile">Join</a>
+            <a href="#" title="LinkedIn">Discover</a>
+        </nav>
+    </header>
+    <main>
+        <div class="hero">
+            <div class="hero-content">
+                <h1>Welcome to the Buenos Aires Chamber of Commerce</h1>
+                <p>Join us and discover the real potencial of your business</p>
+                <a href="#" class="subscribe-btn">Join Now</a>
+            </div>
+        </div>
+        <h1 id="main-title">Home</h1>
+        <hr>
+        <div class="content">
+            <div class="home">
+                <section class="card events">
+                    <div class="header">
+                        <h2>Events</h2>
+                    </div>
+                    <div class="content">
+                        <ul>
+                            <li>Event 1 - Nov 1</li>
+                            <li>Event 2 - Nov 5</li>
+                            <li>Event 3 - Nov 7</li>
+                        </ul>
+                    </div>
+                </section>
+                <section class="card current-weather">
+                    <div class="header">
+                        <h2>Current Weather</h2>
+                    </div>
+                    <div class="content">
+                        <div class="weather-image-container">
+                        </div>
+                        <div class="data">
+                            <p id="current-weather-temperature">22°C</p>
+                            <p id="current-weather-description">clear sky</p>
+                            <p id="current-weather-details"></p>
+                        </div>
+                    </div>
+                </section>
+                <section class="card weather-forecast">
+                    <div class="header">
+                        <h2>Weather Forecast</h2>
+                    </div>
+                    <div class="content">
+                    </div>
+                </section>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div>
+            <p><b>Buenos Aires Chamber of Commerce</b></p>
+            <p>Av Rivadavia 1467</p>
+            <p>Buenos Aires, Argentina</p>
+            <p>Email: <a href="mailto:info@buenosairescc.org">info@buenosairescc.org</a></p>
+            <p>Phone: (11) 4123-4567</p>
+        </div>
+        <div id="social-media-links">
+            <p>Social media links</p>
+        </div>
+        <div>
+            <p>©<span id="currentyear"></span> | Matías Argañaraz | Argentina</p>
+            <p>Last Modification: <span id="last-modified"></span></p>
+        </div>
+    </footer>
+</body>
+</html>

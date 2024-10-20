@@ -1,4 +1,8 @@
 @media (min-width: 45em) {
+    .hero {
+        background-image: url('../images/hero-image.webp');
+    }
+
     #menu {
 		display: none; /* hide hamburger button */
 	}
@@ -22,12 +26,6 @@
         padding: 0.75rem;
         text-decoration: none;
         text-align: center;
-    }
-
-
-    main {
-        padding-left: 150px;
-        padding-right: 150px;
     }
 
     footer {

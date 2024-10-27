@@ -34,13 +34,13 @@ async function showForecast() {
     const daysCount = 3;
     const dayForecasts = [];
     for (let i = 0; i < daysCount; i++) {
-        const stringDate = `${today.getFullYear()}-${today.getMonth()+1}-${today.getDate() + i}`;
+        const stringDate = `${today.getFullYear()}-${today.getMonth()+1}-${today.getDate() + i + 1}`;
         const list = forecastData.list.filter(e => e.dt_txt.startsWith(stringDate));
 
         const dayForecast = {
             list,
             // using index 1 to skip first 3 hours
-            dayToShow: `${new Date(list[1].dt * 1000).toLocaleString('en-US', { weekday: 'long' })}`,
+            dayToShow: `${new Date(list[0].dt_txt).toLocaleString('en-US', { weekday: 'long' })}`,
             img: list[0].weather[0].icon,
             temperature: list[0].main.temp,
             description: capitalizePhrase(list[0].weather[0].description),

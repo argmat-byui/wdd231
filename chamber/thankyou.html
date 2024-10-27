@@ -13,16 +13,14 @@
     <link rel="icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/large.css">
-    <link rel="stylesheet" href="styles/home.css">
-    <link rel="stylesheet" href="styles/home-large.css">
+    <link rel="stylesheet" href="styles/join.css">
+    <link rel="stylesheet" href="styles/join-large.css">
     <link rel="stylesheet" href="styles/directory.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <title>WDD 231 - Matías Argañaraz - Buenos Aires Chamber of Commerce</title>
-    <script src="scripts/get-directory.js" type="module"></script>
-    <script src="scripts/weather.js" type="module"></script>
-    <script src="scripts/home.js" type="module"></script>
+    <script src="scripts/thankyou.js" type="module"></script>
     <script src="scripts/getdates.js" defer></script>
 </head>
 <body>
@@ -33,59 +31,19 @@
         </div>
         <button id="menu" aria-label="Menu button"></button>
         <nav class="navigation">
-            <a href="#" title="Home" class="active">Home</a>
+            <a href="/chamber" title="Home">Home</a>
             <a href="directory.html" title="Chamber">Directory</a>
-            <a href="join.html" title="Join">Join</a>
+            <a href="join.html" title="Join" class="active">Join</a>
             <a href="#" title="Discover">Discover</a>
         </nav>
     </header>
     <main>
-        <div class="hero">
-            <div class="hero-content">
-                <h1>Welcome to the Buenos Aires Chamber of Commerce</h1>
-                <p>Join us and discover the real potencial of your business</p>
-                <a href="#" class="subscribe-btn">Join Now</a>
-            </div>
-        </div>
-        <h1 id="main-title">Home</h1>
-        <hr>
-        <div class="content">
-            <div class="home">
-                <section class="card events">
-                    <div class="header">
-                        <h2>Events</h2>
-                    </div>
-                    <div class="content">
-                        <ul>
-                            <li>Event 1 - Nov 1</li>
-                            <li>Event 2 - Nov 5</li>
-                            <li>Event 3 - Nov 7</li>
-                        </ul>
-                    </div>
-                </section>
-                <section class="card current-weather">
-                    <div class="header">
-                        <h2>Current Weather</h2>
-                    </div>
-                    <div class="content">
-                        <div class="weather-image-container">
-                        </div>
-                        <div class="data">
-                            <p id="current-weather-temperature">22°C</p>
-                            <p id="current-weather-description">clear sky</p>
-                            <p id="current-weather-details"></p>
-                        </div>
-                    </div>
-                </section>
-                <section class="card weather-forecast">
-                    <div class="header">
-                        <h2>Weather Forecast</h2>
-                    </div>
-                    <div class="content">
-                    </div>
-                </section>
-            </div>
-            <div class="grid directory-preview">
+        <div>
+            <div>
+                <h2>Thank you for your interest in joining our Chamber of Commerce.</h2>
+                <p>Our team will review your information and will contact you soon.</p>
+                <p>This is the information you entered: </p>
+                <p id="results"></p>
             </div>
         </div>
     </main>

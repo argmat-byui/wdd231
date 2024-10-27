@@ -13,16 +13,15 @@
     <link rel="icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/large.css">
-    <link rel="stylesheet" href="styles/home.css">
-    <link rel="stylesheet" href="styles/home-large.css">
+    <link rel="stylesheet" href="styles/join.css">
+    <link rel="stylesheet" href="styles/join-large.css">
     <link rel="stylesheet" href="styles/directory.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <title>WDD 231 - Matías Argañaraz - Buenos Aires Chamber of Commerce</title>
-    <script src="scripts/get-directory.js" type="module"></script>
-    <script src="scripts/weather.js" type="module"></script>
-    <script src="scripts/home.js" type="module"></script>
+    <script src="scripts/get-memberships.js" type="module"></script>
+    <script src="scripts/join.js" type="module"></script>
     <script src="scripts/getdates.js" defer></script>
 </head>
 <body>
@@ -33,60 +32,40 @@
         </div>
         <button id="menu" aria-label="Menu button"></button>
         <nav class="navigation">
-            <a href="#" title="Home" class="active">Home</a>
+            <a href="/chamber" title="Home">Home</a>
             <a href="directory.html" title="Chamber">Directory</a>
-            <a href="join.html" title="Join">Join</a>
+            <a href="#" title="Join" class="active">Join</a>
             <a href="#" title="Discover">Discover</a>
         </nav>
     </header>
     <main>
-        <div class="hero">
-            <div class="hero-content">
-                <h1>Welcome to the Buenos Aires Chamber of Commerce</h1>
-                <p>Join us and discover the real potencial of your business</p>
-                <a href="#" class="subscribe-btn">Join Now</a>
-            </div>
-        </div>
-        <h1 id="main-title">Home</h1>
-        <hr>
         <div class="content">
-            <div class="home">
-                <section class="card events">
-                    <div class="header">
-                        <h2>Events</h2>
-                    </div>
-                    <div class="content">
-                        <ul>
-                            <li>Event 1 - Nov 1</li>
-                            <li>Event 2 - Nov 5</li>
-                            <li>Event 3 - Nov 7</li>
-                        </ul>
-                    </div>
-                </section>
-                <section class="card current-weather">
-                    <div class="header">
-                        <h2>Current Weather</h2>
-                    </div>
-                    <div class="content">
-                        <div class="weather-image-container">
-                        </div>
-                        <div class="data">
-                            <p id="current-weather-temperature">22°C</p>
-                            <p id="current-weather-description">clear sky</p>
-                            <p id="current-weather-details"></p>
-                        </div>
-                    </div>
-                </section>
-                <section class="card weather-forecast">
-                    <div class="header">
-                        <h2>Weather Forecast</h2>
-                    </div>
-                    <div class="content">
-                    </div>
-                </section>
+            <div>
+                <h2>Membership Application Form</h2>
+                <form action="thankyou.html" method="get" id="form" class="form-group">
+                    <label for="first-name">First Name</label>
+                    <input type="text" name="first-name" id="first-name" title="Your First Name" autocomplete="given-name" required>
+                    <label for="last-name">Last Name</label>
+                    <input type="text" name="last-name" id="last-name" title="Your Last Name" autocomplete="family-name" required>
+                    <label for="organization-title">Organizational Title</label>
+                    <input type="text" name="organization-title" id="organization-title" title="Your Title in the Organization" autocomplete="organization-title" pattern="^[A-Za-z\s\-]{7,}$" placeholder="Enter your title (at least 7 characters)">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" autocomplete="email" placeholder="name@gmail.com" title="Email Address" required>
+                    <label for="phone">Phone Number</label>
+                    <input type="tel" name="phone" id="phone" autocomplete="tel" title="Phone Number" required>
+                    <label for="organization">Business/Organization's name</label>
+                    <input type="text" name="organization" id="organization" title="Business or Organization name" autocomplete="organization">
+                    <label for="membership">Membership Level</label>
+                    <select id="membership" name="membership" required>
+                        <option value="" disabled>-- Choose a membership --</option>
+                    </select>
+                    <label for="description">Business/Organization's description</label>
+                    <textarea name="description" id="description" title="Business or Organization brief description"></textarea>
+                    <input type="hidden" name="timestamp" id="timestamp">
+                    <button type="submit">Join</button>
+                </form>
             </div>
-            <div class="grid directory-preview">
-            </div>
+            <div id="memberships"></div>
         </div>
     </main>
     <footer>

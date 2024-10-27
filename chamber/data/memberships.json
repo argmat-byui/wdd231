@@ -1,0 +1,50 @@
+[
+    {
+      "level": "Non-Profit",
+      "code": "NP",
+      "price": 0,
+      "targetBusinesses": "Charities and Non-Profit Organizations",
+      "benefits": [
+        "Access to networking events",
+        "Listing in member directory"
+      ]
+    },
+    {
+      "level": "Bronze",
+      "code": "B",
+      "price": 100,
+      "targetBusinesses": "Small Businesses and Startups",
+      "benefits": [
+        "Access to networking events",
+        "Discounted advertising rates",
+        "Priority listing in directory",
+        "Access to online resources",
+        "Event sponsorship opportunities"
+      ]
+    },
+    {
+      "level": "Silver",
+      "code": "S",
+      "price": 300,
+      "targetBusinesses": "Growing Businesses and Medium-Sized Enterprises",
+      "benefits": [
+        "All Bronze benefits",
+        "Enhanced visibility on website",
+        "Monthly networking sessions",
+        "Feature in newsletter"
+      ]
+    },
+    {
+      "level": "Gold",
+      "code": "G",
+      "price": 500,
+      "targetBusinesses": "Established Businesses and Corporations",
+      "benefits": [
+        "All Silver benefits",
+        "Exclusive speaking opportunities",
+        "Banner on homepage",
+        "Access to VIP events",
+        "Personalized support"
+      ]
+    }
+  ]

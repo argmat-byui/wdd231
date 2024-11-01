@@ -201,3 +201,29 @@ main {
     text-align: center;
     color: black;
 }
+
+.container-with-side-bar {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+
+.sidebar {
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.sidebar > img {
+    margin: 10px
+}
+
+.left-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.left-container > div {
+    margin: 15px;
+    min-height: 100px;
+    border: 1px solid black;
+}

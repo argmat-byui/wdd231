@@ -1,0 +1,95 @@
+body {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+}
+
+:root {
+    --primary-color: #346edb;
+    --secondary-color: #394f77;
+    --accent1-color: #e3e5da;
+    --accent2-color: #F39C12;
+
+    --heading-font: 'Montserrat', sans-serif;
+    --paragraph-font: 'Montserrat', sans-serif;
+
+    --nav-background-color: #2C3E50;
+    --nav-link-color: #3498DB;
+    --nav-hover-link-color: #E74C3C;
+    --nav-hover-background-color: #F39C12;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    max-width: 1300px;
+    margin:0 auto;
+    font-family: var(--paragraph-font);
+    color: var(--accent1-color);
+    min-height: 100vh;
+    min-width: 500px;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: #333;
+    color: #fff;
+    min-height: 75px;;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-left: 1rem;
+}
+
+h1 {
+	font-family: var(--paragraph-font);
+    font-size: 2.5rem;
+    align-content: center;
+    text-align: center;
+}
+
+h2 {
+	font-size: 1.2rem;
+	color: navy;
+	text-align: left;
+	margin: 1rem;
+}
+
+header, footer {
+    background: var(--secondary-color);
+}
+
+footer {
+    text-align: center;
+    margin-top: auto;
+}
+
+main {
+	border: 1px solid rgba(0, 0, 0, 0.1);
+    color: #000;
+    padding: 10px;
+    flex: 1;
+    text-align: center;
+}
+
+.site-plan {
+    padding: 25px;
+}
+
+.label {
+    font-weight: bold;
+}
+
+div.images img {
+    max-width: 300px;
+    height: auto;
+    
+}

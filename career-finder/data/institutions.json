@@ -1,0 +1,56 @@
+[
+    {
+        "id": "UNC",
+        "name": "Universidad Nacional de Córdoba",
+        "shortName": "UNC",
+        "imageUrl": "images/logos/institutions/unc.png"
+    },
+    {
+        "id": "UCC",
+        "name": "Universidad Católica de Córdoba",
+        "shortName": "UCC",
+        "imageUrl": "images/logos/institutions/ucc.png"
+    },
+    {
+        "id": "IUA",
+        "name": "Centro Regional Universitario Córdoba IUA",
+        "shortName": "IUA",
+        "imageUrl": "images/logos/institutions/iua.png"
+    },
+    {
+        "id": "UTN",
+        "name": "Universidad Tecnológica Nacional",
+        "shortName": "UTN",
+        "imageUrl": "images/logos/institutions/utn.png"
+    },
+    {
+        "id": "UBP",
+        "name": "Universidad Blas Pascal",
+        "shortName": "UBP",
+        "imageUrl": "images/logos/institutions/ubp.png"
+    },
+    {
+        "id": "21",
+        "name": "Universidad Siglo 21",
+        "shortName": "21",
+        "imageUrl": "images/logos/institutions/21.png"
+    },
+    {
+        "id": "IES",
+        "name": "Instituto de Educación Superios",
+        "shortName": "IES",
+        "imageUrl": "images/logos/institutions/ies.png"
+    },
+    {
+        "id": "MB",
+        "name": "Escuela Superior de Comercio Manuel Belgrano",
+        "shortName": "MB",
+        "imageUrl": "images/logos/institutions/mb.png"
+    },
+    {
+        "id": "SM",
+        "name": "Colegio Superior San Martín",
+        "shortName": "SM",
+        "imageUrl": "images/logos/institutions/sm.png"
+    }
+]

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Buenos Aires Chamber of Commerce site - WDD 231 - Web Frontend Development I">
+    <meta name="author" content="Matías Argañaraz">
+    <meta name="og:description" content="Buenos Aires Chamber of Commerce site - WDD 231 - Web Frontend Development I">
+    <meta property="og:title" content="WDD 231 - Matías Argañaraz - Buenos Aires Chamber of Commerce">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://argmat-byui.github.io/wdd231/chamber/images/logo.webp">
+    <meta property="og:url" content="https://argmat-byui.github.io/wdd231/chamber/">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <link rel="stylesheet" href="styles/careers.css">
+    <link rel="stylesheet" href="styles/careers-large.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>WDD 231 - Matías Argañaraz - Buenos Aires Chamber of Commerce</title>
+    <script src="scripts/get-careers.js" type="module"></script>
+    <script src="scripts/careers.js" type="module"></script>
+    <script src="scripts/utils.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="header"><button id="menu" aria-label="Menu button"></button></div>
+        <nav class="navigation">
+            <a href="/career-finder/" title="Home">Home</a>
+            <a href="#" title="Careers" class="active">Careers</a>
+            <a href="contact.html" title="Join">Contact us</a>
+        </nav>
+    </header>
+    <main>
+        <h1 id="main-title">IT career opportunities</h1>
+        <hr>
+        <div id="cards-container" class="main-container grid"></div>
+    </main>
+    <footer>
+        <div>
+            <p><b>Vocational guidance</b></p>
+            <p>Email: <a href="mailto:info@vocational-guidance.com">info@vocational-guidance.com</a></p>
+            <p>Phone: (11) 4123-4567</p>
+        </div>
+        <div></div>
+        <div>
+            <p>©<span id="currentyear"></span> | Matías Argañaraz | Argentina</p>
+            <p>Last Modification: <span id="last-modified"></span></p>
+        </div>
+    </footer>
+</body>
+</html>

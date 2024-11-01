@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Buenos Aires Chamber of Commerce site - WDD 231 - Web Frontend Development I">
+    <meta name="author" content="Matías Argañaraz">
+    <meta name="og:description" content="Buenos Aires Chamber of Commerce site - WDD 231 - Web Frontend Development I">
+    <meta property="og:title" content="WDD 231 - Matías Argañaraz - Buenos Aires Chamber of Commerce">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://argmat-byui.github.io/wdd231/chamber/images/logo.webp">
+    <meta property="og:url" content="https://argmat-byui.github.io/wdd231/chamber/">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <link rel="stylesheet" href="styles/home.css">
+    <link rel="stylesheet" href="styles/home-large.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>Career Finder</title>
+    <script src="scripts/get-directory.js" type="module"></script>
+    <script src="scripts/weather.js" type="module"></script>
+    <script src="scripts/home.js" type="module"></script>
+    <script src="scripts/utils.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="header"><button id="menu" aria-label="Menu button"></button></div>
+        <nav class="navigation">
+            <a href="#" title="Home" class="active">Home</a>
+            <a href="careers.html" title="Chamber">Careers</a>
+            <a href="contact.html" title="Join">Contact us</a>
+        </nav> 
+    </header>
+    <main>
+        <div class="hero">
+            <div class="hero-content">
+                <h1>Find the best career path for you</h1>
+                <p>Explore exciting IT career opportunities</p>
+                <a href="careers.html" class="subscribe-btn">Explore</a>
+            </div>
+        </div>
+        <br/>
+        <div class="content">
+            <div class="home">
+                <section class="card why">
+                    <div class="header">
+                        <h1>Why Choose a Career in IT?</h1>
+                    </div>
+                    <div class="content">
+                        <ul>
+                            <li>
+                                <img src="images/icons/chart-line.svg" alt="High Demand Icon" loading="lazy">
+                                <span><b>High Demand:</b> The IT industry continues to grow rapidly, with countless job opportunities and a high demand for skilled professionals worldwide.</span>
+                            </li>
+                            <li>
+                                <img src="images/icons/lightbulb-on.svg" alt="Innovation Icon" loading="lazy">
+                                <span><b>Innovation and Growth:</b> Careers in IT offer the chance to work on groundbreaking technologies that shape our future, from AI to cybersecurity.</span>
+                            </li>
+                            <li>
+                                <img src="images/icons/briefcase.svg" alt="Diverse Opportunities Icon" loading="lazy">
+                                <span><b>Diverse Opportunities:</b> With a wide range of specializations, IT offers paths in software development, data science, network engineering, and more.</span>
+                            </li>
+                            <li>
+                                <img src="images/icons/earth.svg" alt="Global Impact Icon" loading="lazy">
+                                <span><b>Global and Local Impact:</b> Whether aiming to work remotely or with local tech firms, IT allows you to make an impact wherever you are.</span>
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+                <section class="card why">
+                    <div class="header">
+                        <h1>Why Study in Córdoba?</h1>
+                    </div>
+                    <div class="content">
+                        <ul>
+                            <li>
+                                <img src="images/icons/account-group.svg" alt="Vibrant Tech Community" loading="lazy">
+                                <span><b>Vibrant Tech Community:</b> Córdoba has a dynamic IT community with numerous meetups, networking events, and workshops that connect students with industry leaders.</span>
+                            </li>
+                            <li>
+                                <img src="images/icons/school.svg" alt="Education Excellence" loading="lazy">
+                                <span><b>Education Excellence:</b> Home to leading universities and training centers, Córdoba offers high-quality education and courses designed to meet industry standards.</span>
+                            </li>
+                            <li>
+                                <img src="images/icons/home-city.svg" alt="Affordable Living" loading="lazy">
+                                <span><b>Affordable Living with Great Lifestyle:</b> Compared to major cities, Córdoba is more affordable, offering a high quality of life in a welcoming and culturally rich environment.</span>
+                            </li>
+                            <li>
+                                <img src="images/icons/laptop.svg" alt="Growing Tech Hub" loading="lazy">
+                                <span><b>Growing Tech Hub:</b> Córdoba is quickly becoming one of Argentina's tech hubs, with an increasing number of startups and multinational companies establishing a presence here.</span>
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+            </div>
+            <div class="content">
+                <section class="offerings">
+                    <div>
+                        <h1>What We Offer</h1>
+                    </div>
+                    <div class="offering-card"> 
+                        <div class="card-content">
+                            <p>Explore detailed information about the top IT careers available in Córdoba. Discover curriculum details, job opportunities, and the institutions offering these programs. Have questions? Use our contact form for guidance in choosing the career that best aligns with your interests and goals!</p>
+                            <a href="contact.html" class="contact-button">Contact Us</a> <!-- Botón aquí -->
+                        </div>
+                        <div class="card-image">
+                            <img src="images/path.avif" alt="IT Careers in Córdoba">
+                        </div>
+                    </div>
+                </section>           
+            </div>
+            <div class="opinion-container">
+                <section>
+                    <h1>Opinions of IT Graduates</h1>
+                    <div id="opinion-cards-container" class="opinion-cards-container"></div>
+                </section>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div>
+            <p><b>Vocational guidance</b></p>
+            <p>Email: <a href="mailto:info@vocational-guidance.com">info@vocational-guidance.com</a></p>
+            <p>Phone: (11) 4123-4567</p>
+        </div>
+        <div></div>
+        <div>
+            <p>©<span id="currentyear"></span> | Matías Argañaraz | Argentina</p>
+            <p>Last Modification: <span id="last-modified"></span></p>
+        </div>
+    </footer>
+</body>
+</html>

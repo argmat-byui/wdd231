@@ -1,0 +1,6 @@
+@media (min-width: 45em) {
+    main {
+        padding-left: 150px;
+        padding-right: 150px;
+    }
+}

@@ -1,0 +1,137 @@
+[
+    {
+        "id": 1,
+        "institutionId": "UNC",
+        "name": "Bachelor of Science in Computer Engineering",
+        "courseFormat": "In person",
+        "durationInYears": 5,
+        "price": "",
+        "websiteUrl": "https://fcefyn.unc.edu.ar/facultad/secretarias/academica/escuelas/ingenieria-computacion/ingenieria-en-computacion"
+    },
+    {
+        "id": 2,
+        "institutionId": "UTN",
+        "name": "Bachelor of Science in Software Engineering",
+        "courseFormat": "In person",
+        "durationInYears": 5,
+        "price": "",
+        "websiteUrl": "https://utn.edu.ar/es/federacion-universitaria-tecnologica/feria-de-carreras/sistemas-de-informacion"
+    },
+    {
+        "id": 3,
+        "institutionId": "21",
+        "name": "Bachelor of Science in Information Technology",
+        "courseFormat": "On line",
+        "durationInYears": 5,
+        "price": "$$$",
+        "websiteUrl": "https://inscribite.21.edu.ar/licenciatura-en-informatica?sbo=2&cmp=1&utm_term=&utm_campaign=Siglo21_CAMPA%C3%91A_PMax_Abogac%C3%ADa_Grado&utm_source=adwords&utm_medium=ppc&hsa_acc=9922330558&hsa_cam=20180187496&hsa_grp=&hsa_ad=&hsa_src=x&hsa_tgt=&hsa_kw=&hsa_mt=&hsa_net=adwords&hsa_ver=3&gad_source=1&gclid=Cj0KCQjw1Yy5BhD-ARIsAI0RbXaVWhcOHfRTnSza2JDba2xDUvAGAgVukaeD7PcHeY_Wd2wPOYCFQioaAgw5EALw_wcB"
+    },
+    {
+        "id": 4,
+        "institutionId": "UNC",
+        "name": "Bachelor of Science in Data Science",
+        "courseFormat": "In person",
+        "durationInYears": 5,
+        "price": "",
+        "websiteUrl": "https://www.famaf.unc.edu.ar/academica/grado/licenciatura-en-ciencias-de-la-computaci%C3%B3n/"
+    },
+    {
+        "id": 5,
+        "institutionId": "IES",
+        "name": "Associate's in Web Design",
+        "courseFormat": "Hybrid",
+        "durationInYears": 3,
+        "price": "$$",
+        "websiteUrl": "https://www.ies21.edu.ar/carreras/diseno-grafico"
+    },
+    {
+        "id": 6,
+        "institutionId": "IUA",
+        "name": "Bachelor of Science in Cybersecurity",
+        "courseFormat": "Hybrid",
+        "durationInYears": 5,
+        "price": "$",
+        "websiteUrl": "https://www.iua.edu.ar/?page_id=571"
+    },
+    {
+        "id": 7,
+        "institutionId": "21",
+        "name": "Associate's in Web Development",
+        "courseFormat": "In person",
+        "durationInYears": 2,
+        "price": "$$",
+        "websiteUrl": "https://inscribite.21.edu.ar/licenciatura-en-informatica?sbo=2&cmp=1&sbo=2&cmp=1&utm_term=carreras%20de%20la%20informatica&utm_campaign=Siglo21_CAMPA%C3%91A_Licenciatura+en+Inform%C3%A1tica_NonBrand_Grado_Virtual&utm_source=adwords&utm_medium=ppc&hsa_acc=9922330558&hsa_cam=19648220106&hsa_grp=148795574111&hsa_ad=647416390681&hsa_src=g&hsa_tgt=aud-676828335242:kwd-312501086571&hsa_kw=carreras%20de%20la%20informatica&hsa_mt=b&hsa_net=adwords&hsa_ver=3&gad_source=1&gclid=Cj0KCQjw1Yy5BhD-ARIsAI0RbXY5jUvJ7B6HiSH03BLJoJ9my06D8UCkFEMYO3pRFCJNwXZ_wgNXvmwaAljbEALw_wcB"
+    },
+    {
+        "id": 8,
+        "institutionId": "21",
+        "name": "Bachelor of Science in Game Development",
+        "courseFormat": "In person",
+        "durationInYears": 4,
+        "price": "$",
+        "websiteUrl": "https://inscribite.21.edu.ar/tecnicatura-universitaria-en-dise%C3%B1o-y-desarrollo-de-videojuegos?sbo=2&cmp=1&sbo=2&cmp=1&utm_term=desarrollo%20de%20videojuegos&utm_campaign=Siglo21_CAMPA%C3%91A_Tecnicatura+en+Dise%C3%B1o+y+Desarrollo+de+Videojuegos_NonBrand_Pregrado_Virtual_NUEVO&utm_source=adwords&utm_medium=ppc&hsa_acc=9922330558&hsa_cam=20600516113&hsa_grp=154443137975&hsa_ad=675488057657&hsa_src=g&hsa_tgt=kwd-296255569420&hsa_kw=desarrollo%20de%20videojuegos&hsa_mt=b&hsa_net=adwords&hsa_ver=3&gad_source=1&gclid=Cj0KCQjw1Yy5BhD-ARIsAI0RbXYeFvqXw-qtVi3Cfg7UjL0lRq4qlaPjd6oXiIUNuTzFOORd-woRRdwaAtGfEALw_wcB"
+    },
+    {
+        "id": 9,
+        "institutionId": "IUA",
+        "name": "Associate's in Cybersecurity",
+        "courseFormat": "On line",
+        "durationInYears": 2,
+        "price": "$",
+        "websiteUrl": "https://www.iua.edu.ar/?page_id=3543"
+    },
+    {
+        "id": 10,
+        "institutionId": "UTN",
+        "name": "Certificate in IT Support",
+        "courseFormat": "In person",
+        "durationInYears": 1,
+        "price": "",
+        "websiteUrl": "https://sceu.frba.utn.edu.ar/e-learning/detalle/carrera/3906/tecnicatura-universitaria-en-programacion"
+    },
+    {
+        "id": 11,
+        "institutionId": "UBP",
+        "name": "Bachelor of Science in Computer Engineering",
+        "courseFormat": "Hybrid",
+        "durationInYears": 5,
+        "price": "$$$",
+        "websiteUrl": "https://landing.ubp.edu.ar/carreras/ingenieria-informatica/?cod_medio=BKLSR-IngInformatica_CBA&cod_medio=PMKT-Google&gad_source=1&gclid=Cj0KCQjw1Yy5BhD-ARIsAI0RbXbcrOTCVUKDIzf2WHGw5HF3xI2BiHzzV0WyOosVlhouAk9vGw69VPEaAtKsEALw_wcB"
+    },
+    {
+        "id": 12,
+        "institutionId": "UNC",
+        "name": "Certificate in Machine Learning",
+        "courseFormat": "In person",
+        "durationInYears": 1,
+        "price": "$",
+        "websiteUrl": "https://diplocienciadedatos.com.ar/"
+    },
+    {
+        "id": 13,
+        "institutionId": "IES",
+        "name": "Associate's in Web Development",
+        "courseFormat": "In person",
+        "durationInYears": 3,
+        "price": "$$",
+        "websiteUrl": "https://www.ies21.edu.ar/carreras/analista-de-sistemas"
+    },
+    {
+        "id": 14,
+        "institutionId": "MB",
+        "name": "Associate's in Web Development",
+        "courseFormat": "In person",
+        "durationInYears": 3,
+        "price": "",
+        "websiteUrl": "https://mb.unc.edu.ar/analista-universitario-en-sistemas-informaticos/"
+    },
+    {
+        "id": 15,
+        "institutionId": "SM",
+        "name": "Associate's in Web Development",
+        "courseFormat": "In person",
+        "durationInYears": 3,
+        "price": "",
+        "websiteUrl": "https://colegiosuperiorsanmartin.blogspot.com/p/tecnicatura-superior-en-informatica.html"
+    }
+]

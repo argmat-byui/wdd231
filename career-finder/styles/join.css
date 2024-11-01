@@ -1,0 +1,139 @@
+main > .content {
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-bottom: 10px;
+}
+
+div.content {
+    display: grid;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+label {
+    margin-bottom: 10px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+input, textarea, button {
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: var(--secondary-color);;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group label {
+    display: flex;
+    /* align-items: center; */
+    font-weight: initial;
+}
+
+input[type="checkbox"] {
+    margin-right: 15px; /* Adjust spacing between radio button and label */
+}
+
+.center {
+    text-align: center;
+}
+
+select {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: #fafafa;
+    transition: border-color 0.3s ease;
+}
+
+select:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+.memberhips {
+    overflow: hidden;
+}
+
+.membership-card {
+    border: solid #ccc 1px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    opacity: 0; /* Start invisible */
+    transform: translateY(100px); /* Start with a downward offset */
+    animation: fadeInUp 1s ease-out forwards;
+    cursor: pointer;
+    margin: 15px;
+}
+
+.membership-card:hover {
+    box-shadow: 0 0 15px #333;
+}
+
+.bronze {
+    background-color: #CD7F32;
+}
+
+.silver {
+    background-color: silver;
+}
+
+.gold {
+    background-color: goldenrod;
+}
+
+  /* Keyframes for fading in and moving up */
+  @keyframes fadeInUp {
+    0% {
+      opacity: 0;
+      transform: translateY(100px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0); /* End at the original position */
+    }
+  }
+
+.modal {
+    text-align: start;
+    margin: auto;
+    padding: 1rem;
+    width: 60%;
+    min-height: 5rem;
+}
+
+.modal button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: .6rem;
+    font-weight: 500;
+    background-color: transparent;
+    color: black;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s, font-size 0.3s, transform 0.3s;
+}

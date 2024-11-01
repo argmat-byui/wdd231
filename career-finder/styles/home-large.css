@@ -1,0 +1,11 @@
+@media (min-width: 45em) {
+    .home {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
+    }
+
+    .current-weather .content {
+        flex-direction: column;
+    }
+}
